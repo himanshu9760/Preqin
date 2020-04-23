@@ -1,0 +1,301 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Sequence" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:sl="clr-namespace:System.Linq;assembly=System.Core" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="var_outPutFilePath" Type="InArgument(x:String)" />
+    <x:Property Name="var_ConsolidatedFilePath" Type="OutArgument(x:String)" />
+  </x:Members>
+  <mva:VisualBasic.Settings>
+    <x:Null />
+  </mva:VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>553,1793</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>Sequence_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="23">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="22">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Data.Entity</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Sequence" sap:VirtualizedContainerService.HintSize="563,1628" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Name="dtReadFileValue" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <If Condition="[File.Exists(var_outPutFilePath)]" sap:VirtualizedContainerService.HintSize="521,1445" sap2010:WorkflowViewState.IdRef="If_3">
+      <If.Then>
+        <Sequence sap:VirtualizedContainerService.HintSize="376,1297" sap2010:WorkflowViewState.IdRef="Sequence_8">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="sd:DataTable" Name="dtClone" />
+            <Variable x:TypeArguments="x:String" Name="fileNameWithCurrentDateTime" />
+            <Variable x:TypeArguments="x:String" Name="getFolderPath" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Assign sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_11">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[fileNameWithCurrentDateTime]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[String.Format("{0:yyyy-MM-dd_HH-mm-ss}", DateTime.Now)]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_12">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[getFolderPath]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[Path.GetDirectoryName(var_outPutFilePath)]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:ReadRange AddHeaders="True" DataTable="[dtReadFileValue]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Sheet1" WorkbookPath="[var_outPutFilePath]">
+            <ui:ReadRange.Range>
+              <InArgument x:TypeArguments="x:String">
+                <Literal x:TypeArguments="x:String" Value="" />
+              </InArgument>
+            </ui:ReadRange.Range>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </ui:ReadRange>
+          <Assign sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_10">
+            <Assign.To>
+              <OutArgument x:TypeArguments="sd:DataTable">[dtClone]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="sd:DataTable">[dtReadFileValue.Clone]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:InvokeCode ContinueOnError="{x:Null}" Code="'Dim dtClone As DataTable = dtReadFileValue.Clone()&#xD;&#xA;        Dim listOfUrlByGroup As IEnumerable(Of IGrouping(Of String, DataRow)) = dtReadFileValue.AsEnumerable().GroupBy(Function(m) m.Field(Of String)(&quot;Output_URL&quot;))&#xD;&#xA;&#xD;&#xA;        For Each grpkey As IGrouping(Of String, DataRow) In listOfUrlByGroup&#xD;&#xA;            Dim listRow As List(Of DataRow) = grpkey.ToList()&#xD;&#xA;            If listRow.Count &gt; 0 Then&#xD;&#xA;                Dim listOfKeywrds As List(Of String) = listRow.[Select](Function(m) m.Field(Of String)(&quot;Keyword&quot;)).ToList()&#xD;&#xA;                Dim CommaSepratedKeyword As String = String.Join(&quot;,&quot;, listOfKeywrds)&#xD;&#xA;                Dim listOfMatchedUrlKeyWrds As List(Of String) = listRow.Where(Function(s) Not String.IsNullOrWhiteSpace(Convert.ToString(s.Field(Of String)(&quot;Match_Keywords&quot;)))).[Select](Function(m) m.Field(Of String)(&quot;Match_Keywords&quot;)).ToList()&#xD;&#xA;                Dim CommaSepratedMatchedUrlKeyWrds As String = String.Join(&quot;,&quot;, listOfMatchedUrlKeyWrds)&#xD;&#xA;                Dim listOfAllColumnValue As List(Of Object) = listRow.FirstOrDefault().ItemArray.ToList()&#xD;&#xA;                If String.IsNullOrEmpty(CommaSepratedMatchedUrlKeyWrds) Then&#xD;&#xA;                    listOfAllColumnValue.RemoveAt(listOfAllColumnValue.Count - 1)&#xD;&#xA;                    listOfAllColumnValue.Add(CommaSepratedKeyword)&#xD;&#xA;                Else&#xD;&#xA;                    Dim listOfNotMatchKeywrd As List(Of String) = listOfMatchedUrlKeyWrds.Except(listOfKeywrds).ToList()&#xD;&#xA;                    listOfKeywrds.AddRange(listOfNotMatchKeywrd)&#xD;&#xA;                    Dim CommaSepratedKeyword1 As String = String.Join(&quot;,&quot;, listOfKeywrds)&#xD;&#xA;                    listOfAllColumnValue.RemoveAt(listOfAllColumnValue.Count - 1)&#xD;&#xA;                    listOfAllColumnValue.Add(CommaSepratedKeyword1)&#xD;&#xA;                End If&#xD;&#xA;                dtClone.Rows.Add(listOfAllColumnValue.ToArray())&#xD;&#xA;            End If&#xD;&#xA;&#xD;&#xA;        Next&#xD;&#xA;        'Dim dtWithYes As DataTable = New DataTable()&#xD;&#xA;        'Dim dataRowsWithYes As DataRow() = dtClone.[Select](&quot;Is_Date='Yes'&quot;)&#xD;&#xA;&#xD;&#xA;        'If dataRowsWithYes.Count() &gt; 0 Then&#xD;&#xA;           ' dtWithYes = dataRowsWithYes.CopyToDataTable()&#xD;&#xA;        'Else&#xD;&#xA;            'dtWithYes = dtClone.Clone()&#xD;&#xA;        'End If&#xD;&#xA;&#xD;&#xA;        'Dim dtWithNo As DataTable = New DataTable()&#xD;&#xA;        'Dim dataRowsWithNo As DataRow() = dtClone.[Select](&quot;Is_Date='No'&quot;)&#xD;&#xA;&#xD;&#xA;        'If dataRowsWithNo.Count() &gt; 0 Then&#xD;&#xA;         '   dtWithNo = dataRowsWithNo.CopyToDataTable()&#xD;&#xA;        'Else&#xD;&#xA;         '   dtWithNo = dtClone.Clone()&#xD;&#xA;        'End If&#xD;&#xA;&#xD;&#xA;       ' Dim getFolderPath As String = Path.GetDirectoryName(var_outPutFilePath)&#xD;&#xA;        'Dim fileNameWithCurrentDateTime As String = String.Format(&quot;{0:yyyy-MM-dd_HH-mm-ss}&quot;, DateTime.Now)&#xD;&#xA;        'Dim dsWithYesNoFilePath As String = Path.Combine(getFolderPath, &quot;dsWithYesNo_&quot; &amp; fileNameWithCurrentDateTime &amp; &quot;.xml&quot;)&#xD;&#xA;        'Dim dsYesNo As DataSet = New DataSet()&#xD;&#xA;        'dsYesNo.Tables.Add(dtWithYes)&#xD;&#xA;        'dsYesNo.Tables.Add(dtWithNo)&#xD;&#xA;        'dsYesNo.WriteXml(dsWithYesNoFilePath)&#xD;&#xA;&#xD;&#xA;        Dim consolidatedFilePath As String = Path.Combine(getFolderPath, &quot;dsFinal_&quot; &amp; fileNameWithCurrentDateTime &amp; &quot;.xml&quot;)&#xD;&#xA;        Dim dsFinal As DataSet = New DataSet()&#xD;&#xA;        dsFinal.Tables.Add(dtReadFileValue.Copy())&#xD;&#xA;        dsFinal.WriteXml(consolidatedFilePath)" DisplayName="Invoke code" sap:VirtualizedContainerService.HintSize="334,164" sap2010:WorkflowViewState.IdRef="InvokeCode_1">
+            <ui:InvokeCode.Arguments>
+              <InArgument x:TypeArguments="sd:DataTable" x:Key="dtReadFileValue">
+                <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="dtReadFileValue" />
+              </InArgument>
+              <InArgument x:TypeArguments="sd:DataTable" x:Key="dtClone">
+                <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="dtClone" />
+              </InArgument>
+              <InArgument x:TypeArguments="x:String" x:Key="var_outPutFilePath">
+                <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="var_outPutFilePath" />
+              </InArgument>
+              <InArgument x:TypeArguments="x:String" x:Key="fileNameWithCurrentDateTime">
+                <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="fileNameWithCurrentDateTime" />
+              </InArgument>
+              <InArgument x:TypeArguments="x:String" x:Key="getFolderPath">
+                <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="getFolderPath" />
+              </InArgument>
+            </ui:InvokeCode.Arguments>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </ui:InvokeCode>
+          <ui:InvokeCode ContinueOnError="{x:Null}" Code="If File.Exists(var_outPutFilePath) Then&#xA;    File.Delete(var_outPutFilePath)&#xA;End If" DisplayName="Invoke code" sap:VirtualizedContainerService.HintSize="334,164" sap2010:WorkflowViewState.IdRef="InvokeCode_3">
+            <ui:InvokeCode.Arguments>
+              <InArgument x:TypeArguments="x:String" x:Key="var_outPutFilePath">[var_outPutFilePath]</InArgument>
+            </ui:InvokeCode.Arguments>
+          </ui:InvokeCode>
+          <Assign sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_13">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[var_ConsolidatedFilePath]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[Path.Combine(getFolderPath, "Temp_Deal_Output_" &amp; fileNameWithCurrentDateTime &amp; ".xlsx")]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:WriteRange AddHeaders="True" DataTable="[dtClone]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="334,115" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Sheet1" StartingCell="A1" WorkbookPath="[var_ConsolidatedFilePath]" />
+          <ui:WriteRange AddHeaders="True" DataTable="[dtReadFileValue]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="334,115" sap2010:WorkflowViewState.IdRef="WriteRange_2" SheetName="Sheet1" StartingCell="A1" WorkbookPath="[Path.Combine(getFolderPath, &quot;FinalDeal_Output_&quot; &amp; fileNameWithCurrentDateTime &amp; &quot;.xlsx&quot;)]" />
+        </Sequence>
+      </If.Then>
+    </If>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="521,51" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="928,143" sap2010:WorkflowViewState.IdRef="Sequence_7">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:ForEach x:TypeArguments="sl:IGrouping(x:String, sd:DataRow)" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[listOfUrlByGroup]">
+            <ui:ForEach.Body>
+              <ActivityAction x:TypeArguments="sl:IGrouping(x:String, sd:DataRow)">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="sl:IGrouping(x:String, sd:DataRow)" Name="grpkey" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="850,1336" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="scg:List(sd:DataRow)" Name="listRow" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <Assign sap:VirtualizedContainerService.HintSize="808,60" sap2010:WorkflowViewState.IdRef="Assign_4">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="scg:List(sd:DataRow)">[listRow]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="scg:List(sd:DataRow)">[grpkey.ToList()]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <If Condition="[listRow.Count&gt;0]" sap:VirtualizedContainerService.HintSize="808,1144" sap2010:WorkflowViewState.IdRef="If_1">
+                    <If.Then>
+                      <Sequence sap:VirtualizedContainerService.HintSize="663,996" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                        <Sequence.Variables>
+                          <Variable x:TypeArguments="scg:List(x:String)" Name="listOfKeywrds" />
+                          <Variable x:TypeArguments="x:String" Name="CommaSepratedKeyword" />
+                          <Variable x:TypeArguments="scg:List(x:String)" Name="listOfMatchedUrlKeyWrds" />
+                          <Variable x:TypeArguments="x:String" Name="CommaSepratedMatchedUrlKeyWrds" />
+                          <Variable x:TypeArguments="scg:List(x:Object)" Name="listOfAllColumnValue" />
+                        </Sequence.Variables>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <Assign sap:VirtualizedContainerService.HintSize="621,60" sap2010:WorkflowViewState.IdRef="Assign_5">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="scg:List(x:String)">[listOfKeywrds]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="scg:List(x:String)">[listRow.[Select](Function(m) m.Field(Of String)("Keywords")).ToList()]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                        <Assign sap:VirtualizedContainerService.HintSize="621,60" sap2010:WorkflowViewState.IdRef="Assign_6">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:String">[CommaSepratedKeyword]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:String">[String.Join(",", listOfKeywrds)]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                        <Assign sap:VirtualizedContainerService.HintSize="621,60" sap2010:WorkflowViewState.IdRef="Assign_7">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="scg:List(x:String)">[listOfMatchedUrlKeyWrds]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="scg:List(x:String)">[listRow.Where(Function(s) Not String.IsNullOrWhiteSpace(Convert.ToString(s.Field(Of String)("UrlMatchedWithKeywords")))).[Select](Function(m) m.Field(Of String)("UrlMatchedWithKeywords")).ToList()]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                        <Assign sap:VirtualizedContainerService.HintSize="621,60" sap2010:WorkflowViewState.IdRef="Assign_8">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:String">[CommaSepratedMatchedUrlKeyWrds]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:String">[String.Join(",", listOfMatchedUrlKeyWrds)]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                        <Assign sap:VirtualizedContainerService.HintSize="621,60" sap2010:WorkflowViewState.IdRef="Assign_9">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="scg:List(x:Object)">[listOfAllColumnValue]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="scg:List(x:Object)">[listRow.FirstOrDefault().ItemArray.ToList()]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                        <If Condition="[string.IsNullOrWhiteSpace(CommaSepratedMatchedUrlKeyWrds)]" sap:VirtualizedContainerService.HintSize="621,404" sap2010:WorkflowViewState.IdRef="If_2">
+                          <If.Then>
+                            <Sequence sap:VirtualizedContainerService.HintSize="376,256" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:InvokeCode ContinueOnError="{x:Null}" Code="listOfAllColumnValue.Remove(listOfAllColumnValue.Count-1)&#xA;listOfAllColumnValue.Add(CommaSepratedKeyword)" DisplayName="Invoke code" sap:VirtualizedContainerService.HintSize="334,164" sap2010:WorkflowViewState.IdRef="InvokeCode_2">
+                                <ui:InvokeCode.Arguments>
+                                  <InArgument x:TypeArguments="scg:List(x:Object)" x:Key="listOfAllColumnValue">[listOfAllColumnValue]</InArgument>
+                                  <InArgument x:TypeArguments="x:String" x:Key="CommaSepratedKeyword">[CommaSepratedKeyword]</InArgument>
+                                </ui:InvokeCode.Arguments>
+                              </ui:InvokeCode>
+                            </Sequence>
+                          </If.Then>
+                          <If.Else>
+                            <Sequence sap:VirtualizedContainerService.HintSize="200,83" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </Sequence>
+                          </If.Else>
+                        </If>
+                      </Sequence>
+                    </If.Then>
+                  </If>
+                </Sequence>
+              </ActivityAction>
+            </ui:ForEach.Body>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </ui:ForEach>
+        </Sequence>
+      </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:CommentOut>
+  </Sequence>
+</Activity>

@@ -1,0 +1,443 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Acquire -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">http://www.1848capital.com/heartland-food-corp.html</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">4</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire,Acquired,Acquisition,Bought,Corporate Investment,Acquire,Acquired,Acquisition,Bought,Corporate Investment,Acquire,Acquired</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Acquire -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">http://www.1848capital.com/team.html</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">25</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire,Acquired,Acquisition,Bought,Acquire,Acquired,Acquisition,Bought,Acquire,Acquired</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Acquire -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://forum.uipath.com/t/keywords-search/212608</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">405</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire,Acquired,Acquisition,Bought,Acquire,Acquired,Acquisition,Bought,Acquire,Acquired</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Acquire -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://www.crunchbase.com/organization/1848-capital-partners</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">No</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">0</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire,Acquired,Acquisition,Bought,Corporate Investment,Acquire,Acquired,Acquisition,Bought,Corporate Investment,Acquire,Acquired</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Acquire -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">http://www.ithistory.org/db/companies/1848-capital-partners</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">20</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire,Acquired,Acquisition,Bought,Acquire,Acquired,Acquisition,Bought,Acquire,Acquired</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Acquire -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://www.wikiwand.com/en/Joseph_DaGrosa</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">30</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire,Acquired,Acquisition,Bought,Corporate Investment,Acquire,Acquired,Acquisition,Bought,Corporate Investment,Acquire,Acquired</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Acquire -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://1848capitalpartners.wordpress.com/2014/12/</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">212</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire,Acquire,Acquire</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Acquire -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://www.startupranking.com/1848-capital-partners</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">54</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire,Acquired,Acquisition,Bought,Acquire,Acquired,Acquisition,Bought,Acquire,Acquired</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Acquire -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://eb5visafunds.com/advisory-board/joseph-dagrosa</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">40</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire,Acquired,Acquisition,Corporate Investment,Acquire,Acquired,Acquisition,Corporate Investment,Acquire,Acquired</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Acquire -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://ripoffscams.com/reports-filed/1848-capital-partners/los-angeles-california/1848-capital-partners-eastern-airlines-joseph-dagrosa-john-sicilian-david-neithhardt-alleged-conspiracy-fraud-deception-unfair-trade-practices-misrepresentation-miami-florida/335319/</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">395</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire,Acquire,Acquire</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Acquired -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquired</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://1848capitalpartners.wordpress.com/tag/1848-capital-partners-llc/</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">192</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquired,Acquisition,Bought,Acquired,Acquisition,Bought,Acquired</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Acquired -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquired</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://1848capitalpartners.wordpress.com/2014/12/18/1848-capital-partners-keys-to-buying-good-companies/</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">158</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquired,Acquisition,Bought,Acquired,Acquisition,Bought,Acquired</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Bought -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Bought</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://777part.com/team_member/john-j-sicilian/</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">No</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">0</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Bought,Bought</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Corporate Investment -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Corporate Investment</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">http://www.1848capital.com/about-us.html</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Corporate Investment,Corporate Investment</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Corporate Investment -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Corporate Investment</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://sites.google.com/site/1848capitalpartners/about</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">42</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Corporate Investment,Corporate Investment</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Corporate Investment -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Corporate Investment</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://www.zoominfo.com/directory/person/john-sicilian/6973888?utm_source=discoverorg</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">No</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">0</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Corporate Investment,Corporate Investment</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Corporate Investment -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Corporate Investment</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://www.zoominfo.com/p/David-Neithardt/819299014</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">No</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">0</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Corporate Investment,Corporate Investment</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Corporate Investment -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Corporate Investment</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://1848capitalpartners.wordpress.com/2014/12/22/1848-capital-partners-joseph-dagrosa-is-a-reputable-expert-in-the-area-of-finance-for-businesses/</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">148</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Corporate Investment,Corporate Investment</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Corporate Investment -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Corporate Investment</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">http://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults/OfficerRegisteredAgentName/Neithard%20%20%20%20%20%20%20%20%20%20%20%20David/Page1</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">9</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Corporate Investment,Corporate Investment</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Debt Funding -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Debt Funding</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">http://demo1.worldpianohcm.com/o2w2u0/gso-capital-partners-linkedin.html</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">No</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">0</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Debt Funding</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Debt Funding -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Debt Funding</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://1848capitalpartners.wordpress.com/tag/burger-king/</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">125</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Debt Funding</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Debt Funding -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Debt Funding</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://www.bkaml.com/our-team/</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">No</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">0</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Debt Funding</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Debt Funding -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Debt Funding</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://www.sec.gov/Archives/edgar/data/1020425/000119312516709436/d245147dncsrsa.htm</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1994</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Debt Funding</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Debt Funding -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Debt Funding</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://www.sec.gov/Archives/edgar/data/1302716/000114420411032887/v224229_ncsr.htm</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">637</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Debt Funding</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Debt Funding -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Debt Funding</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://www.aihitdata.com/company/01C262DF/partners/people</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">91</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Debt Funding</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Debt Funding -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Debt Funding</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://massinvestordatabase.com/files/Demo%20VC%20&amp;%20PE%20eBook.pdf</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2914</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Debt Funding</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Debt Funding -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Debt Funding</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://www.bsx.com/pdf/cusip.pdf</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">No</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">0</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Debt Funding</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Debt Funding -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Debt Funding</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://www.cdpq.com/sites/default/files/medias/pdf/en/ra/ra2008_renseignements_add_en.pdf</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2390</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Debt Funding</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1848 capital partners</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Heartland Food Corp 1848 capital partners Debt Funding -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Debt Funding</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://www.harriswilliams.com/sites/default/files/industry_reports/food_beverage_industry_update_10.9.13.pdf</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">596</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Debt Funding</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2i capital group</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard 2i capital group Acquire -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://www.vccircle.com/2i-capital-part-exits-pipavav-shipyard/</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">48</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire,Acquired</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2i capital group</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard 2i capital group Acquire -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://m.economictimes.com/markets/stocks/news/2i-capital-sells-3-in-pipavav-for-rs-110-crore/articleshow/5450161.cms</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">162</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire,Acquired</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2i capital group</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard 2i capital group Acquire -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://www.reuters.com/article/idINIndia-45472120100118</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">614</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire,Acquired</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2i capital group</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard 2i capital group Acquire -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://mergr.com/2i-capital-group-exits-pipavav-shipyard</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">21</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2i capital group</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard 2i capital group Acquire -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://www.privateequityinternational.com/2i-capital-raises-60-million-for-india/</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">489</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2i capital group</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard 2i capital group Acquire -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://www.sharekhan.com/stockpricequote/Reliance-Naval-and-Engineering-Ltd/016680028.00005004001/corporate-activity</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire,Acquired</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2i capital group</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard 2i capital group Acquire -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://www.sharekhan.com/stockpricequote/Reliance-Naval-and-Engineering-Ltd/016680028.00005004001/charting</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2i capital group</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard 2i capital group Acquire -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://www.ndtv.com/business/stock/reliance-naval-and-engineering-ltd_pipavavdoc/reports</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">182</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire,Acquired</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2i capital group</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard 2i capital group Acquire -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://economictimes.indiatimes.com/reliance-naval-and-engineering-ltd/infocompanyhistory/companyid-29687.cms</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">240</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2i capital group</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard 2i capital group Acquire -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://www.chittorgarh.com/ipo-feedback/pipavav_shipyard_ipo/203/8/</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">81</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquire</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2i capital group</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard 2i capital group Acquired -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquired</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://economictimes.indiatimes.com/markets/stocks/news/2i-capital-sells-3-in-pipavav-for-rs-110-crore/articleshow/5450161.cms</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">162</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquired</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2i capital group</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard 2i capital group Acquired -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquired</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://www.goodreturns.in/company/reliance-naval-and-engineering/history.html</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">327</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquired</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2i capital group</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard 2i capital group Acquired -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquired</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">http://www.cmlinks.com/pub/dp/dp23050.pdf</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3379</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquired</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2i capital group</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard 2i capital group Acquired -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquired</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">https://www.online.citibank.co.in/rhtm/images/Pipavav-Prospectus.pdf</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3011</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquired</Match_Keywords>
+  </DataTable>
+  <DataTable>
+    <Portfolio_Company xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard</Portfolio_Company>
+    <GP_Name xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2i capital group</GP_Name>
+    <Input_Search xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pipavav Shipyard 2i capital group Acquired -Wikipedia.org -twitter.com -facebook.com -merger.com -pitchbook.com</Input_Search>
+    <Keyword xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquired</Keyword>
+    <Output_URL xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">http://www.helplinelaw.com/news/year/2010/2</Output_URL>
+    <Is_Date xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yes</Is_Date>
+    <Date_Count xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">152</Date_Count>
+    <Match_Keywords xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acquired</Match_Keywords>
+  </DataTable>
+</NewDataSet>

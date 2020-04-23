@@ -1,0 +1,137 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="GetConfigFileDetails" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="macroInputFilePath" Type="OutArgument(x:String)" />
+    <x:Property Name="macroOutputFilePath" Type="OutArgument(x:String)" />
+    <x:Property Name="tempDealDateOutputFilePath" Type="OutArgument(x:String)" />
+  </x:Members>
+  <sap:VirtualizedContainerService.HintSize>680,904</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="17">
+      <x:String>System.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="16">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="SequenceValidateConfigFileExistInMyDocuments" sap:VirtualizedContainerService.HintSize="563,839" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="inputDateFolderPath" />
+      <Variable x:TypeArguments="x:String" Name="outputDateFolderPath" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:InvokeCode ContinueOnError="{x:Null}" Code="Dim mydocuments As String = String.Empty&#xD;&#xA;    Dim datefolderName As String = String.Empty&#xD;&#xA;    Dim dealDateFolderPath As String = String.Empty&#xD;&#xA;    Dim dealDateInputFolderPath As String = String.Empty&#xD;&#xA;    Dim macroFileName As String = &quot;Deal_Date_Input.xlsm&quot;&#xD;&#xA;&#x9;Dim marcroOutputFile As String = &quot;Deal_Date_Output.xlsm&quot;&#xD;&#xA;    Dim todayDate As DateTime = DateTime.Now.Date&#xD;&#xA;    datefolderName = todayDate.Day.ToString() &amp; &quot; &quot; + todayDate.ToString(&quot;MMMM&quot;).ToUpper() &amp; &quot; &quot; + todayDate.Year.ToString()&#xD;&#xA;    mydocuments = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)&#xD;&#xA;    dealDateFolderPath = Path.Combine(mydocuments, &quot;Preqin_Deals_Intelligence&quot;)&#xD;&#xA;    dealDateInputFolderPath = Path.Combine(dealDateFolderPath, &quot;Input&quot;)&#xD;&#xA;    inputDateFolderPath = Path.Combine(dealDateInputFolderPath, datefolderName)&#xD;&#xA;    macroInputFilePath = Path.Combine(inputDateFolderPath, macroFileName)&#xD;&#xA;&#xD;&#xA;   If File.Exists(macroInputFilePath) Then&#xD;&#xA;    outputDateFolderPath = Path.Combine(dealDateFolderPath, &quot;Output&quot;, datefolderName)&#xD;&#xA;&#xD;&#xA;    If Not Directory.Exists(outputDateFolderPath) Then&#xD;&#xA;        Directory.CreateDirectory(outputDateFolderPath)&#xD;&#xA;    End If&#xD;&#xA;&#xD;&#xA;    If Directory.Exists(outputDateFolderPath) Then&#xD;&#xA;        macroOutputFilePath = Path.Combine(outputDateFolderPath, marcroOutputFile)&#xD;&#xA;        tempDealDateOutputFilePath = Path.Combine(outputDateFolderPath, &quot;Temp_Deal_Output.xlsx&quot;)&#xD;&#xA;&#xD;&#xA;        If File.Exists(macroOutputFilePath) Then&#xD;&#xA;            File.Delete(macroOutputFilePath)&#xD;&#xA;        End If&#xD;&#xA;&#xD;&#xA;        File.Copy(macroInputFilePath, macroOutputFilePath)&#xD;&#xA;    End If&#xD;&#xA;End If" DisplayName="Invoke code" sap:VirtualizedContainerService.HintSize="521,164" sap2010:WorkflowViewState.IdRef="InvokeCode_2">
+      <ui:InvokeCode.Arguments>
+        <OutArgument x:TypeArguments="x:String" x:Key="inputDateFolderPath">[inputDateFolderPath]</OutArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="macroInputFilePath">[macroInputFilePath]</OutArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="outputDateFolderPath">[outputDateFolderPath]</OutArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="macroOutputFilePath">[macroOutputFilePath]</OutArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="tempDealDateOutputFilePath">[tempDealDateOutputFilePath]</OutArgument>
+      </ui:InvokeCode.Arguments>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:InvokeCode>
+    <If Condition="[Not Directory.Exists(inputDateFolderPath)]" DisplayName="Validate today date input folder path exist" sap:VirtualizedContainerService.HintSize="521,51" sap2010:WorkflowViewState.IdRef="If_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <If.Then>
+        <Sequence sap:VirtualizedContainerService.HintSize="376,213" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Folder path not exist in this location &quot;+ inputDateFolderPath]" />
+          <Throw Exception="[new Exception(&quot;Folder path not exist in this location &quot;+ inputDateFolderPath)]" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Throw_1" />
+        </Sequence>
+      </If.Then>
+    </If>
+    <If Condition="[Not File.Exists(macroInputFilePath)]" DisplayName="Validate macro file exist" sap:VirtualizedContainerService.HintSize="521,51" sap2010:WorkflowViewState.IdRef="If_4">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <If.Then>
+        <Sequence sap:VirtualizedContainerService.HintSize="376,213" sap2010:WorkflowViewState.IdRef="Sequence_7">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[&quot;This File not exist on this location(&quot;+macroInputFilePath+&quot;)&quot;]" />
+          <Throw Exception="[new Exception(&quot;This File not exist on this location(&quot;+macroInputFilePath+&quot;)&quot;)]" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Throw_3" />
+        </Sequence>
+      </If.Then>
+    </If>
+    <If Condition="[Not Directory.Exists(outputDateFolderPath)]" DisplayName="Validate today date output folder path exist" sap:VirtualizedContainerService.HintSize="521,361" sap2010:WorkflowViewState.IdRef="If_6">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <If.Then>
+        <Sequence sap:VirtualizedContainerService.HintSize="376,213" sap2010:WorkflowViewState.IdRef="Sequence_9">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="MessageBox_5" Text="[&quot;Folder path not exist in this location &quot;+ outputDateFolderPath]" />
+          <Throw Exception="[new Exception(&quot;Folder path not exist in this location &quot;+ outputDateFolderPath)]" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Throw_5" />
+        </Sequence>
+      </If.Then>
+    </If>
+  </Sequence>
+</Activity>
